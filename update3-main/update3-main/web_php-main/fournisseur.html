@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscription </title>
+
+  <!--css-->
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #55bad4, #18d2a6);
+}
+
+h1 {
+  color: #fff8f8;
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+
+textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+input[type="file"] {
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background-color: #2196f3;
+  color: white;
+  margin-left: 220px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px hwb(0 55% 20% / 0.1);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url('https://cdn.iconscout.com/icon/free/png-256/arrow-down-1767322-1502435.png') no-repeat;
+  background-size: 20px;
+  background-position: right center;
+}
+
+.select option {
+  padding: 10px;
+}
+
+  </style>
+</head>
+
+<body > 
+  <h1>Inscription : </h1>
+  <form action="login.php" method="POST">
+    <br><br>
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom_f" required>
+    <br><br>
+    <label for="prenom">Prénom :</label>
+    <input type="text" id="prenom" name="prenom_f" required>
+    <br><br>
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email_f" required>
+    <br><br>
+    <label for="password">Mot de passe :</label>
+    <input type="password" id="password" name="password_f" required>
+
+<br><br>
+    <label for="wilaya">Wilaya :</label>
+    <input type="text" id="wilaya" name="wilaya_f" required>
+
+
+     <br><br><br><br><br> <br> 
+    <input type="submit" value="S'inscrire" name="fournisseur" >
+  </form>
+</div>
+
+
+</body>
+
+</html>

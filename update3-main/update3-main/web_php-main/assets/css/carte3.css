@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+   
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    
+}
+
+.mapForm {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .mapFormContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .mapFormContainerInner {
+    flex: 1;
+  }
+  
+  .input-wrapper {
+    position: relative;
+  }
+  
+  .autocomplete {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .field {
+    margin-bottom: 10px;
+  }
+  
+  .cal-error-text {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .select {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .btn-quaternary {
+    background-color: #eee;
+    color: #333;
+    padding: 10px;
+  }
+  
+  .icon-playarrow {
+    margin-right: 5px;
+  }
+
+
+.wrapper {
+    width: 75%;
+    max-width: 1000px;
+    display: flex;
+  
+   
+}
+
+
+#map {
+  width: 500px;
+    height: 400px;
+    flex: 1;
+    margin: auto;
+}

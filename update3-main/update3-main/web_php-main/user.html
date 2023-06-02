@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Inscription</title>
+
+  <!--du css-->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+     background: linear-gradient(to bottom, #55bad4, #18d2a6);
+    }
+    
+    h1 {
+      color: hsl(0, 0%, 100%);
+      text-align: center;
+    }
+    
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type ="number"],
+
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    }
+    
+    input[type="submit"] {
+      background-color: #2196f3;
+      color: white;
+      padding: 10px;
+      margin-left: 220px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+  </style>
+
+</head>
+
+<body >
+  <h1>Inscription</h1>
+  <form action="login.php" method="post">
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom_u" required>
+    <br><br>
+    <label for="prenom">Prénom :</label>
+    <input type="text" id="prenom" name="prenom_u" required>
+    <br><br>
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email_u" required>
+    <br><br>
+    <label for="password">Mot de passe :</label>
+    <input type="password" id="password" name="password_u" required>
+   <br><br> 
+    <label for="date_naissance">Date de naissance :</label>
+    <input type="date" id="date_naissance" name="date_naissance_u" required>
+   <br><br>
+    <label for="Numero">Poids :</label>
+    <input type="number" id="poids_u" name="poids_u" required>
+    <br><br>
+    <label for="Numero">Taille :</label>
+    <input type="number" id="taille_u" name="taille_u" required>
+   <br><br><br> <br> 
+    <input type="submit" value="S'inscrire" name="user">
+  </form>
+
+
+</body>
+
+</html>
